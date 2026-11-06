@@ -1,0 +1,205 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+    <title>Esperanza Tomé</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="curriculum.css">
+    <link rel="stylesheet" href="mediaqueriescv.css">
+    <link rel="stylesheet"><script src="https://kit.fontawesome.com/81ea414dff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="membrete">
+           <div class = "membretePrincipal">
+            <div class="name_container">
+                <div class="name">
+                    Esperanza Tomé Iglesias
+                </div>
+                <div class="icon_container">
+                    <img src="iconoFinal.png">
+                </div>
+            </div>
+
+            <div class="title_container">
+                <div class="title">
+                    Full Stack Development
+            </div>
+        </div>
+           </div>
+           <div class="membreteButtons">
+          <div class = "appsButton">
+        
+            <button>
+
+          <a  id="appsButton" onclick="window.modalPalabras.showModal();">PALABRAS-API</a>
+        </button>
+
+<dialog id="modalPalabras">
+   <h2>PALABRAS</h2>
+   <p>API NODE que nos permite obtener la mayoría de las palabras de la gramática española divididas por grupos gramaticales.</p>
+   <p>
+     Tiene diversas aplicaciones tales como; buscadores, herramientas de idiomas, programas de gramática, análisis y generación de palabras, manipulación de texto, desarrollo de juegos, IA...",
+</p>
+<div class="modalButtons">
+    <button  class="modalButton" id="enlaceGitHubButton"  >
+        <div class="iconoGitHub">
+            <img id="iconoGitHub"src="github.png" onclick="enlaceGitHub()">
+            <a id= "toolTip">
+                https://github.com/esperanzatome/palabras
+                
+            </a>
+        </div>
+      
+        <a id="gitHubUrl" onclick="enlaceGitHub()">https://github.com/esperanzatome/palabras
+            
+        </a>
+    </button>
+    <script>
+        function enlaceGitHub(){
+            window.open("https://github.com/esperanzatome/palabras")
+        }
+       
+    </script>
+
+       <button class="modalButton"id="cerrarModalButton" onclick="window.modalPalabras.close();">Cerrar</button>
+</div>
+
+   
+</dialog>
+            
+          
+
+    
+    
+
+          </div>
+            <div class = "appsButtonEficompra">
+        
+            <button>
+
+          <a  id="appsButtonEficompra" onclick="window.modalEficompra.showModal();">EFICOMPRA
+            <img id="iconoEficompra"src="favicon.ico" >
+            <a id= "toolTip">
+                https://eficompra.vercel.app
+            </a>
+          </a>
+          
+       
+      
+        </button>
+
+<dialog id="modalEficompra">
+   
+
+   
+   <h2 onclick="enlaceEficompra()">EFICOMPRA</h2>
+ <a id="appEnlace" onclick="enlaceEficompra()">
+                https://eficompra.vercel.app
+            </a>
+    <script>
+        function enlaceEficompra(){
+            window.open("https://eficompra.vercel.app")
+        }
+       
+    </script>
+    
+        <img id="iconoEficompra"src="carrito-de-compras.png" >
+          
+              
+   <p>Aplicación <b>React JS</b> con servidor <b>Node express</b> que nos permite realizar, guardar y compartir <b>listas de la compra</b>.</p>
+
+<div class="modalButtons">
+    <button  class="modalButton" id="enlaceGitHubButton" onclick="enlaceGitHub()" >
+        <div class="iconoGitHub">
+            <img id="iconoGitHub"src="github.png" >
+            <a id= "toolTip">
+                https://github.com/esperanzatome/eficompra
+            </a>
+        </div>
+       <a id="gitHubUrl" onclick="enlaceGitHub()">https://github.com/esperanzatome/eficompra
+            
+        </a>
+        
+    </button>
+    <script>
+        function enlaceGitHub(){
+            window.open("https://github.com/esperanzatome/eficompra")
+        }
+       
+    </script>
+ 
+       <button class="modalButton"id="cerrarModalButton" onclick="window.modalEficompra.close();">Cerrar</button>
+</div>
+
+   
+</dialog>
+            
+          
+
+    
+    
+
+          </div>
+          </div>
+        </div>
+        <div class="contenido">
+          <div class="certificados">
+            <img src="certificado-fundations.png">
+            <img src="certificado-fullstack.png">
+          </div>
+            <div class="conocimientos">
+                <div class="lenguajes">
+                    LENGUAJES
+                <div class="list">
+                    <div>HTML</div>
+                    <div>JS</div> 
+                    <div>PYTHON</div>
+                    <div>CSS</div>
+                    <div>SCSS</div>
+                </div>
+                </div>
+                <div class="herramientas">
+                    HERRAMIENTAS
+                    <div class="list">
+                        <div>GIT</div>
+                        <div>HEROKU</div> 
+                        <div>NODE</div>
+                        <div>EXPRESS</div>
+                        <div>REACT</div>
+                    </div>
+                </div>
+                
+                    
+                <div class="bases_de_datos">
+                    BASES DE DATOS
+                    <div class="list">
+                        <div>MYSQL</div>
+                        <div>NOSQL</div> 
+                        <div>FLASK</div>
+                        <div>MONGODB</div>
+                        <div>REDIS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="salida">
+                <a href="index.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+                
+            </div>
+            
+
+        </div>   
+    </div>
+   
+    </body>
+    </html>

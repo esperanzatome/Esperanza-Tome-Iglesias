@@ -1,0 +1,269 @@
+.container{
+    background-color: #225836;;
+    color: #59ac5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+.membrete{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    height: 171px;
+    border: inset;
+    border-color: #49994f;
+}
+.membretePrincipal{
+    width: 75%;
+    height: 157px;
+}
+.name_container{
+    font-family: 'Satisfy', cursive;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    filter: brightness(1.3);
+    margin-left: 178px;;
+
+    
+}
+
+.icon_container{
+    filter: brightness(1.3);
+    margin-left: -37px;
+}
+img{
+    width: 213px;
+
+}
+.title_container{
+    font-family: 'Kanit', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin: -18px;
+    margin-left: 50px;
+    filter: brightness(1.3);
+}
+.membreteButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.appsButton{
+    display: flex;
+    align-items: end;
+    margin-bottom: 20px;
+}
+button{
+    width: 143px;
+    height: 37px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: #467c4a;
+    border-radius: 5.5px;
+    border-color: #203b2a;
+    border-bottom-color: #36a961;
+    border-right-color: #36a961;
+
+}
+#appsButton{
+    margin-top: -7px;
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+    margin-right: 0px;
+    color: #59ac5f;
+    filter: brightness(1.3);
+}
+#appsButtonEficompra{
+    margin-top: -7px;
+   
+    font-size: large;
+    margin-right: 0px;
+   color: #8587c0;
+    Font-family: 'Indie Flower', sans-serif;
+    filter: brightness(1.3);
+    font-weight: 600;
+    #iconoEficompra{
+        width: fit-content;
+        margin-bottom: -2%;
+    }
+}
+
+dialog:modal{
+
+    background: #d0f8d3;
+    border-color: #49994f;
+    border-style: ridge;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    width: 50%;
+    font-family: 'Kanit', sans-serif;
+    overflow: hidden;
+}
+#modalEficompra{
+    h2{
+        margin-top: 1%;
+    Font-family: 'Indie Flower', sans-serif;
+    color: #6f468e;
+    font-size: xxx-large;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+h2:hover{
+    cursor: pointer;
+}
+ #iconoEficompra{
+        width: 11%;
+        position: relative;
+    animation-name: moverCarro;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+     }
+}
+    
+     p{
+        text-align: center;
+     }
+
+.modalButtons{
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-around;
+    margin-top: 26px;
+    align-items: center;
+}
+.modalButton{
+    font-size: large;
+    background-color: #59ac5f;
+    font-family: 'Kanit', sans-serif;
+    width: auto;
+    color: #143526;
+    align-items: center;
+}
+
+@keyframes moverCarro{
+    0%{
+        left:-150px;
+    }
+    100%{
+        left:100%;
+    }
+}
+#gitHubUrl{
+    margin-left: 4px;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#iconoGitHub{
+    width: 47px;
+    padding-right: 3px;
+    padding-bottom: 13px;
+  
+}
+.iconoGitHub{
+    position: relative;
+        display: inline-block;
+}
+
+#toolTip{
+   
+    visibility: hidden;
+    background-color: #3f6f42;
+    color: #d0f8d3;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 28%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    height: 74%;
+    width: 598%;
+    margin-left: -55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenido{
+   
+    width: -webkit-fill-available;
+    background-color: #467c4a;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contenido img{
+    width: 531px;
+}
+.certificados{
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+.conocimientos{
+    font-family: 'Bungee', sans-serif;
+    filter: brightness(1.3);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 11px;
+    width: 86%;
+    column-gap: 97px;
+}
+.list{
+    
+    color: #203b2a;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+  
+}
+.salida{
+    display: flex;
+    justify-content: end;
+    font-size: xx-large;
+    background-color: #225836;
+    height: 20px;
+    border: inset;
+    border-color: #49994f;
+    width: -webkit-fill-available;
+    margin-top: 10px;
+}
+a{
+    color: #203b2a;
+    margin-right: 26px;
+    margin-top: -45px;
+    position: absolute;
+}
+#appEnlace{
+    position: relative;
+    margin-top: -3%;
+    color: #8d68a9;
+    align-self: center;
+    margin-right: 0%;
+    cursor: pointer;
+}
+i{
+    transform: rotate(180deg);
+}
+
+
+
